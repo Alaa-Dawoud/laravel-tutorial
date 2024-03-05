@@ -1,9 +1,9 @@
 # laravel-tutorial
 
-#### laravel from the net ninja playlist https://www.youtube.com/playlist?list=PL4cUxeGkcC9hL6aCFKyagrT1RCfVN4w2Q
-##### lessons in branches
+###### laravel from the net ninja playlist https://www.youtube.com/playlist?list=PL4cUxeGkcC9hL6aCFKyagrT1RCfVN4w2Q
+###### lessons in branches
 
-###### CRUD for laravel models
+### CRUD for laravel models
     // crud (create read update delete)
     // create
     // $pizza = new Pizza()
@@ -19,6 +19,7 @@
     // $comments = Comment::orderBy('created_at','desc')->where([["is_approved", 1],["post_id", $id]])->get();
     // update
     // $comment = Comment::where("id", $id)->update(["is_approved"=>1]);
+    // $post->increment("views"); //for instant update and increment or decrement integer columns
     // delete - we use each for delete
     // $comment = Comment::where("id", $id)->get();
     // $comment->each->delete();
